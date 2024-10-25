@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       # Log in to Docker Hub using secrets stored in GitHub
-      - name: Docker Hub Ligin
+      - name: Docker Hub Login
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
